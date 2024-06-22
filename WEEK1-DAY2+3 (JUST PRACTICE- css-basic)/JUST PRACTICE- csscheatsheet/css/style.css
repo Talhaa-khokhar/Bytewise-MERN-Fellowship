@@ -1,0 +1,164 @@
+body{
+  background-color: #f4f4f4;
+  color: #555555;
+  font-family: Arial,serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+
+
+h1{
+  color:green;
+}
+a{
+  text-decoration: underline;
+  color: black;
+}
+a:hover{
+  color: red;
+}
+a:active{
+  color: green;
+}
+.button{
+  background-color: black;
+  color: #fff;
+  padding: 10px 15px;
+  border:none;
+
+}
+.button:hover{
+  background-color: red;
+  color: #fff;
+}
+
+
+
+
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.clr{
+  clear: both;
+}
+.box-1{
+  background-color: #333;
+  color: black;
+  border: 5px red solid;
+  border-style: dotted;
+  padding: 20px;
+  margin: 20px;
+}
+.box-1 h1 {
+  font-family: Tahoma;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 1em;
+  padding: 20px;
+}
+
+.box-2{
+  border-style: double;
+
+  border-color: red;
+  border-width: 5px;
+  padding: 20px;
+  margin: 20px;
+
+}
+.Categories{
+  border-style: dotted;
+
+  border-color: red;
+  border-width: 5px;
+  padding: 20px;
+}
+.Categories h2{
+  font-family: Tahoma;
+  font-weight: 800;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.Categories ul{
+  color: blue;
+}
+.Categories li{
+  padding: inherit;
+  border-bottom: dotted 1px black;
+}
+.myform{
+  padding: 20px;
+}
+.myform .formgroup{
+  padding-bottom: 15px;
+
+}
+.myform label{
+  display: block;
+}
+.myform input[type="text"] .myform textarea{
+  padding: 8px;
+  width: 100%;
+}
+.block{
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+#main-block{
+  float: left;
+  width: 70%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+#side_bar{
+  float: right;
+  width: 80%;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.pbox{
+  width: 800px;
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 30px;
+  position: relative;
+  background-image: url('../imges/imgg.jpg');
+
+}
+.pbox h1 {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+
+}
+.fix-me{
+  position: fixed;
+  top: 400px;
+}
+
+.my-list li:first-child{
+  background: red;
+}
+.my-list li:last-child{
+  background: blue;
+}
+.my-list li:nth-child(5){
+  background: green;
+}
+.my-list li:nth-child(even){
+  background: grey;
+}
